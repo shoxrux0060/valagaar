@@ -16,8 +16,8 @@
       "shortName": "Tomato Paste",
       "packageName": "Packed Foods",
       "price": 500,
-      "image": "images/tomato_paste.jpg",
-      "imagePlaceholder": "images/piala1-placeholder.jpg",
+      "image": "https://raw.githubusercontent.com/shoxrux0060/valagaar/gh-pages/images/tomato_paste.jpg",
+      "imagePlaceholder": "https://raw.githubusercontent.com/shoxrux0060/valagaar/gh-pages/images/piala1-placeholder.jpg",
       "description": "Warm human dwellings"
     },
     {
@@ -26,8 +26,8 @@
       "shortName": "Sweet Condensed Milk",
       "packageName": "Packed Foods",
       "price": 1200,
-      "image": "images/sweet_condensed_milk.jpg",
-      "imagePlaceholder": "images/turk-placeholder.jpg",
+      "image": "https://raw.githubusercontent.com/shoxrux0060/valagaar/gh-pages/images/sweet_condensed_milk.jpg",
+      "imagePlaceholder": "https://raw.githubusercontent.com/shoxrux0060/valagaar/gh-pages/images/turk-placeholder.jpg",
       "description": "Big Turk \"Child of the Earth\" talks about the Guardian's song, a wooden pipe, and how the Lesa grasses listened attentively to her.\nVolume of 250 ml\nClay, glaze (enamel), milking, wood"
     },
     {
@@ -36,8 +36,8 @@
       "shortName": "Safety Matches",
       "packageName": "Packed Foods",
       "price": 800,
-      "image": "images/safety_matches.jpg",
-      "imagePlaceholder": "images/box-placeholder.jpg",
+      "image": "https://raw.githubusercontent.com/shoxrux0060/valagaar/gh-pages/images/safety_matches.jpg",
+      "imagePlaceholder": "https://raw.githubusercontent.com/shoxrux0060/valagaar/gh-pages/images/box-placeholder.jpg",
       "description": "Box with the Guardian Forest. Suitable for storing snowy sugar cranberries, rings and secrets.\nInside, the last green leaf hides from the cold.\nDimensions: 9x9x5 cm"
     },
     {
@@ -46,8 +46,8 @@
       "shortName": "Sardines",
       "packageName": "Packed Foods",
       "price": 1800,
-      "image": "images/sardines.jpg",
-      "imagePlaceholder": "images/box-placeholder.jpg",
+      "image": "https://raw.githubusercontent.com/shoxrux0060/valagaar/gh-pages/images/sardines.jpg",
+      "imagePlaceholder": "https://raw.githubusercontent.com/shoxrux0060/valagaar/gh-pages/images/box-placeholder.jpg",
       "description": "Box with the Guardian Forest. Suitable for storing snowy sugar cranberries, rings and secrets.\nInside, the last green leaf hides from the cold.\nDimensions: 9x9x5 cm"
     },
     {
@@ -56,8 +56,8 @@
       "shortName": "Tuna",
       "packageName": "Packed Foods",
       "price": 100,
-      "image": "images/tuna.jpg",
-      "imagePlaceholder": "images/box-placeholder.jpg",
+      "image": "https://raw.githubusercontent.com/shoxrux0060/valagaar/gh-pages/images/tuna.jpg",
+      "imagePlaceholder": "https://raw.githubusercontent.com/shoxrux0060/valagaar/gh-pages/images/box-placeholder.jpg",
       "description": "Box with the Guardian Forest. Suitable for storing snowy sugar cranberries, rings and secrets.\nInside, the last green leaf hides from the cold.\nDimensions: 9x9x5 cm"
     },
     {
@@ -66,8 +66,8 @@
       "shortName": "Green Peas",
       "packageName": "Packed Foods",
       "price": 800,
-      "image": "images/green_peas.png",
-      "imagePlaceholder": "images/box-placeholder.jpg",
+      "image": "https://raw.githubusercontent.com/shoxrux0060/valagaar/gh-pages/images/green_peas.png",
+      "imagePlaceholder": "https://raw.githubusercontent.com/shoxrux0060/valagaar/gh-pages/images/box-placeholder.jpg",
       "description": "Box with the Guardian Forest. Suitable for storing snowy sugar cranberries, rings and secrets.\nInside, the last green leaf hides from the cold.\nDimensions: 9x9x5 cm"
     },
     {
@@ -76,8 +76,8 @@
       "shortName": "Sweet corn",
       "packageName": "Packed Foods",
       "price": 1500,
-      "image": "images/sweet_corn.png",
-      "imagePlaceholder": "images/box-placeholder.jpg",
+      "image": "https://raw.githubusercontent.com/shoxrux0060/valagaar/gh-pages/images/sweet_corn.png",
+      "imagePlaceholder": "https://raw.githubusercontent.com/shoxrux0060/valagaar/gh-pages/images/box-placeholder.jpg",
       "description": "Box with the Guardian Forest. Suitable for storing snowy sugar cranberries, rings and secrets.\nInside, the last green leaf hides from the cold.\nDimensions: 9x9x5 cm"
     },
     {
@@ -86,8 +86,8 @@
       "shortName": "Milk power",
       "packageName": "Packed Foods",
       "price": 2000,
-      "image": "images/milk_power.jpg",
-      "imagePlaceholder": "images/box-placeholder.jpg",
+      "image": "https://raw.githubusercontent.com/shoxrux0060/valagaar/gh-pages/images/milk_power.jpg",
+      "imagePlaceholder": "https://raw.githubusercontent.com/shoxrux0060/valagaar/gh-pages/images/box-placeholder.jpg",
       "description": "Box with the Guardian Forest. Suitable for storing snowy sugar cranberries, rings and secrets.\nInside, the last green leaf hides from the cold.\nDimensions: 9x9x5 cm"
     },
     {
@@ -96,8 +96,8 @@
       "shortName": "Drinking chocolate powder",
       "packageName": "Packed Foods",
       "price": 2800,
-      "image": "images/drinking_chocolate_powder.jpg",
-      "imagePlaceholder": "images/box-placeholder.jpg",
+      "image": "https://raw.githubusercontent.com/shoxrux0060/valagaar/gh-pages/images/drinking_chocolate_powder.jpg",
+      "imagePlaceholder": "https://raw.githubusercontent.com/shoxrux0060/valagaar/gh-pages/images/box-placeholder.jpg",
       "description": "Box with the Guardian Forest. Suitable for storing snowy sugar cranberries, rings and secrets.\nInside, the last green leaf hides from the cold.\nDimensions: 9x9x5 cm"
     },
     {
@@ -106,8 +106,8 @@
       "shortName": "Taste Enhancers",
       "packageName": "Packed Foods",
       "price": 800,
-      "image": "images/taste_enhancers.jpg",
-      "imagePlaceholder": "images/box-placeholder.jpg",
+      "image": "https://raw.githubusercontent.com/shoxrux0060/valagaar/gh-pages/images/taste_enhancers.jpg",
+      "imagePlaceholder": "https://raw.githubusercontent.com/shoxrux0060/valagaar/gh-pages/images/box-placeholder.jpg",
       "description": "Box with the Guardian Forest. Suitable for storing snowy sugar cranberries, rings and secrets.\nInside, the last green leaf hides from the cold.\nDimensions: 9x9x5 cm"
     },
     {
@@ -116,8 +116,8 @@
       "shortName": "Margarine",
       "packageName": "Packed Foods",
       "price": 700,
-      "image": "images/margarine.jpg",
-      "imagePlaceholder": "images/box-placeholder.jpg",
+      "image": "https://raw.githubusercontent.com/shoxrux0060/valagaar/gh-pages/images/margarine.jpg",
+      "imagePlaceholder": "https://raw.githubusercontent.com/shoxrux0060/valagaar/gh-pages/images/box-placeholder.jpg",
       "description": "Box with the Guardian Forest. Suitable for storing snowy sugar cranberries, rings and secrets.\nInside, the last green leaf hides from the cold.\nDimensions: 9x9x5 cm"
     }
   ],
