@@ -1,0 +1,103 @@
+{
+  "name": "react-redux-shop",
+  "description": "Implementation of an online store in the infrastructure of react-redux",
+  "version": "0.1.0",
+  "keywords": [
+    "reactjs",
+    "redux"
+  ],
+  "contributors": [
+    {
+      "name": "Krivega Dmitriy",
+      "email": "mr.krivega@gmail.com",
+      "web": "http://krivega.com/"
+    }
+  ],
+  "demos": [
+    "http://midforest.krivega.com/"
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/Krivega/react-redux-shop.git"
+    }
+  ],
+  "private": true,
+  "proxy": {
+    "/api": {
+      "target": "http://localhost:9000"
+    }
+  },
+  "dependencies": {
+    "@material/animation": "^0.25.0",
+    "@material/button": "^0.29.0",
+    "@material/elevation": "^0.28.0",
+    "@material/fab": "^0.29.0",
+    "@material/layout-grid": "^0.24.0",
+    "@material/list": "^0.29.0",
+    "@material/theme": "^0.29.0",
+    "@material/typography": "^0.28.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-http-proxy": "^1.1.0",
+    "history": "^4.7.2",
+    "husky": "^0.14.3",
+    "immutable": "^3.8.2",
+    "lint-staged": "^6.1.0",
+    "lodash": "^4.17.4",
+    "nedb": "^1.8.0",
+    "node-sass-chokidar": "0.0.3",
+    "nodemailer": "^4.4.2",
+    "normalize.css": "^7.0.0",
+    "npm-run-all": "^4.1.2",
+    "prettier": "^1.10.2",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-intl": "^2.4.0",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^5.0.0-alpha.8",
+    "react-scripts": "1.1.0",
+    "react-swipeable": "^4.2.0",
+    "react-transition-group": "^2.2.1",
+    "rebem-classname": "^0.4.0",
+    "redux": "^3.7.2",
+    "redux-immutable": "^4.0.0",
+    "redux-saga": "^0.16.0",
+    "reselect": "^3.0.1"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,json,scss}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "scripts": {
+    "precommit": "lint-staged",
+    "build-css": "node-sass-chokidar src/ -o src/ --include-path=src/ --include-path=node_modules/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --include-path=src/ --include-path=node_modules/ --watch --recursive",
+    "start-js": "react-scripts start",
+    "start-server": "node ./bin/www",
+    "start": "npm-run-all -p start-server watch-css start-js",
+    "build-js": "react-scripts build",
+    "build": "npm-run-all build-css build-js",
+    "arch-build" : "tar -zcvf build.tar.gz build",
+    "extract-build": "tar -zxvf build.tar.gz build",
+    "build-and-arch" : "npm-run-all build arch-build",
+    "images": "gulp images",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-filter": "^5.1.0",
+    "gulp-image": "^4.2.0",
+    "gulp-image-resize": "^0.13.0",
+    "gulp-rename": "^1.2.2",
+    "require-dir": "^0.3.2",
+    "run-sequence": "^2.2.1",
+    "why-did-you-update": "^0.1.0"
+  }
+}

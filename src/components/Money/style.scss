@@ -1,0 +1,26 @@
+@import 'sass/style';
+
+.money {
+  display: inline-flex;
+  align-items: center;
+
+  &_lefted {
+    flex-direction: row;
+
+    .money__currency {
+      margin-right: 0.2em;
+    }
+  }
+  &_righted {
+    flex-direction: row-reverse;
+
+    .money__currency {
+      margin-left: 0.2em;
+    }
+  }
+
+  &__currency {
+    opacity: 0.8;
+    font-size: 0.7em;
+  }
+}

@@ -1,0 +1,46 @@
+@import 'sass/style';
+@import '@material/elevation/mixins';
+@import '@material/theme/mixins';
+
+.cart {
+  font-family: Algerian;
+  position: absolute;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 0;
+  transform: translate3d($cart-size, 0, 0);
+  opacity: 0;
+  will-change: opacity, transform;
+  touch-action: none;
+
+  @include mdc-theme-prop(background-color, background);
+
+  &_animating {
+    width: $cart-size;
+    padding: 0 24px;
+    transition: mdc-animation-enter(opacity, 500ms), animation-moving(transform, 500ms);
+
+    &.cart_open {
+      transition: mdc-animation-exit-permanent(opacity, 300ms), animation-moving(transform, 500ms);
+    }
+  }
+
+  &_open {
+    z-index: 4;
+    flex-shrink: 0;
+    width: $cart-size !important;
+    height: 100vh;
+    padding: 0 24px;
+    transform: translate3d(0, 0, 0);
+    pointer-events: auto;
+    opacity: 1;
+
+    @include mdc-elevation(10);
+  }
+
+  &__actions {
+    border-bottom: 1px solid rgba(68, 85, 51, 0.096);
+  }
+}

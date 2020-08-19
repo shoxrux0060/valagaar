@@ -1,0 +1,17 @@
+@import 'sass/style';
+@import '@material/typography/mixins';
+@import '@material/layout-grid/mixins';
+
+.app-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-height: 100vh;
+  transition: animation-moving(transform, 500ms);
+  transform: translate3d(0, 0, 0);
+  will-change: transform;
+
+  &_aside-pushed {
+    transform: translate3d(-#{$cart-size}, 0, 0);
+  }
+}

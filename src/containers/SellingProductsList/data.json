@@ -1,0 +1,125 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "name": "Spaghetti",
+      "shortName": "Spaghetti",
+      "packageName": "Packed Foods",
+      "price": 1700,
+      "image": "images/spaghetti.jpg",
+      "imagePlaceholder": "images/ferns-placeholder.jpg",
+      "description": "Large cozy kettle for four bowls. Ideal for fragrant herbal teas and strong hugs.\nVolume about 800 ml"
+    },
+    {
+      "id": "2",
+      "name": "Tomato Paste",
+      "shortName": "Tomato Paste",
+      "packageName": "Packed Foods",
+      "price": 500,
+      "image": "images/tomato_paste.jpg",
+      "imagePlaceholder": "images/piala1-placeholder.jpg",
+      "description": "Warm human dwellings"
+    },
+    {
+      "id": "3",
+      "name": "Sweet Condensed Milk",
+      "shortName": "Sweet Condensed Milk",
+      "packageName": "Packed Foods",
+      "price": 1200,
+      "image": "images/sweet_condensed_milk.jpg",
+      "imagePlaceholder": "images/turk-placeholder.jpg",
+      "description": "Big Turk \"Child of the Earth\" talks about the Guardian's song, a wooden pipe, and how the Lesa grasses listened attentively to her.\nVolume of 250 ml\nClay, glaze (enamel), milking, wood"
+    },
+    {
+      "id": "4",
+      "name": "Safety Matches",
+      "shortName": "Safety Matches",
+      "packageName": "Packed Foods",
+      "price": 800,
+      "image": "images/safety_matches.jpg",
+      "imagePlaceholder": "images/box-placeholder.jpg",
+      "description": "Box with the Guardian Forest. Suitable for storing snowy sugar cranberries, rings and secrets.\nInside, the last green leaf hides from the cold.\nDimensions: 9x9x5 cm"
+    },
+    {
+      "id": "5",
+      "name": "Sardines",
+      "shortName": "Sardines",
+      "packageName": "Packed Foods",
+      "price": 1800,
+      "image": "images/sardines.jpg",
+      "imagePlaceholder": "images/box-placeholder.jpg",
+      "description": "Box with the Guardian Forest. Suitable for storing snowy sugar cranberries, rings and secrets.\nInside, the last green leaf hides from the cold.\nDimensions: 9x9x5 cm"
+    },
+    {
+      "id": "6",
+      "name": "Tuna",
+      "shortName": "Tuna",
+      "packageName": "Packed Foods",
+      "price": 100,
+      "image": "images/tuna.jpg",
+      "imagePlaceholder": "images/box-placeholder.jpg",
+      "description": "Box with the Guardian Forest. Suitable for storing snowy sugar cranberries, rings and secrets.\nInside, the last green leaf hides from the cold.\nDimensions: 9x9x5 cm"
+    },
+    {
+      "id": "7",
+      "name": "Green Peas",
+      "shortName": "Green Peas",
+      "packageName": "Packed Foods",
+      "price": 800,
+      "image": "images/green_peas.png",
+      "imagePlaceholder": "images/box-placeholder.jpg",
+      "description": "Box with the Guardian Forest. Suitable for storing snowy sugar cranberries, rings and secrets.\nInside, the last green leaf hides from the cold.\nDimensions: 9x9x5 cm"
+    },
+    {
+      "id": "8",
+      "name": "Sweet corn",
+      "shortName": "Sweet corn",
+      "packageName": "Packed Foods",
+      "price": 1500,
+      "image": "images/sweet_corn.png",
+      "imagePlaceholder": "images/box-placeholder.jpg",
+      "description": "Box with the Guardian Forest. Suitable for storing snowy sugar cranberries, rings and secrets.\nInside, the last green leaf hides from the cold.\nDimensions: 9x9x5 cm"
+    },
+    {
+      "id": "9",
+      "name": "Milk power",
+      "shortName": "Milk power",
+      "packageName": "Packed Foods",
+      "price": 2000,
+      "image": "images/milk_power.jpg",
+      "imagePlaceholder": "images/box-placeholder.jpg",
+      "description": "Box with the Guardian Forest. Suitable for storing snowy sugar cranberries, rings and secrets.\nInside, the last green leaf hides from the cold.\nDimensions: 9x9x5 cm"
+    },
+    {
+      "id": "10",
+      "name": "Drinking chocolate powder",
+      "shortName": "Drinking chocolate powder",
+      "packageName": "Packed Foods",
+      "price": 2800,
+      "image": "images/drinking_chocolate_powder.jpg",
+      "imagePlaceholder": "images/box-placeholder.jpg",
+      "description": "Box with the Guardian Forest. Suitable for storing snowy sugar cranberries, rings and secrets.\nInside, the last green leaf hides from the cold.\nDimensions: 9x9x5 cm"
+    },
+    {
+      "id": "11",
+      "name": "Taste Enhancers",
+      "shortName": "Taste Enhancers",
+      "packageName": "Packed Foods",
+      "price": 800,
+      "image": "images/taste_enhancers.jpg",
+      "imagePlaceholder": "images/box-placeholder.jpg",
+      "description": "Box with the Guardian Forest. Suitable for storing snowy sugar cranberries, rings and secrets.\nInside, the last green leaf hides from the cold.\nDimensions: 9x9x5 cm"
+    },
+    {
+      "id": "12",
+      "name": "Margarine",
+      "shortName": "Margarine",
+      "packageName": "Packed Foods",
+      "price": 700,
+      "image": "images/margarine.jpg",
+      "imagePlaceholder": "images/box-placeholder.jpg",
+      "description": "Box with the Guardian Forest. Suitable for storing snowy sugar cranberries, rings and secrets.\nInside, the last green leaf hides from the cold.\nDimensions: 9x9x5 cm"
+    }
+  ],
+  "currency": "$"
+}

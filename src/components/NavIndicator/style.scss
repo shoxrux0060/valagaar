@@ -1,0 +1,16 @@
+@import 'sass/style';
+@import '@material/theme/mixins';
+
+.nav-indicator {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+  width: 100%;
+  height: 2px;
+  transition: mdc-animation-enter(transform, 240ms);
+  transform-origin: left top;
+  background-color: $primaryColor;
+  background-color: rgba(white, 0.3);
+  will-change: transform;
+}

@@ -1,0 +1,7 @@
+@import 'sass/style';
+
+.list {
+  @extend %syslist;
+
+  padding: 8px $mdc-list-side-padding 0;
+}

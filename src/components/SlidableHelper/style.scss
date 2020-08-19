@@ -1,0 +1,147 @@
+@import 'sass/style';
+@import '@material/theme/mixins';
+@import '@material/elevation/mixins';
+
+.slidable-helper {
+  position: absolute;
+  left: 50%;
+  width: 300px;
+  transition: mdc-animation-enter(opacity, 0.8s, 2s), animation-moving-flash(transform, 1.5s, 2s);
+  transform: translate3d(-50%, 100px, 0);
+  opacity: 0;
+  will-change: opacity, transform;
+
+  &__content {
+    font-style: italic;
+    text-align: center;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+
+    &_notouch {
+      font-size: 16px;
+    }
+
+    &_touch {
+      font-size: 11px;
+    }
+  }
+
+  &:before,
+  &:after {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    margin: 0 auto;
+    transition: mdc-animation-enter(opacity, 0.8s, 2.5s),
+      animation-moving-flash(transform, 1.5s, 2.5s);
+    text-align: center;
+    will-change: opacity, transform;
+  }
+
+  &:before {
+    bottom: 0;
+    width: 10px;
+    height: 10px;
+    content: '';
+    animation: touch-dot 1.5s $animation-moving-flash-function infinite;
+    border-radius: 100%;
+    background: #fff;
+    line-height: 0;
+
+    @include media-query(phone) {
+      @include mdc-elevation(1);
+    }
+  }
+
+  &:not(.slidable-helper_touch) {
+    &:after {
+      width: 31px;
+      height: 50px;
+      margin-top: 20px;
+      margin-bottom: 15px;
+      content: '•';
+      animation: mouse-dot 1.5s $animation-moving-flash-function infinite;
+      border: 2px solid white;
+      border-radius: 30px;
+      background: transparent;
+      font-size: 22px;
+      line-height: 1;
+    }
+  }
+
+  &_notouch {
+    bottom: 0;
+
+    .slidable-helper__content_touch {
+      display: none;
+    }
+
+    &:before {
+      display: none;
+    }
+  }
+
+  &_touch {
+    bottom: $header-size + 10px;
+
+    .slidable-helper__content_notouch {
+      display: none;
+    }
+
+    &:after {
+      display: none;
+
+      @include media-query(phone) {
+        position: absolute;
+        top: -30px;
+        right: 0;
+        bottom: -10px;
+        left: 0;
+        z-index: -1;
+        display: block;
+        content: '';
+        background: rgba($mdc-theme-primary-dark, 0.8);
+      }
+    }
+  }
+
+  &_active {
+    transform: translate3d(-50%, 0, 0);
+    opacity: 1;
+  }
+
+  &_hidden {
+    transition: animation-moving-flash(opacity, 500ms);
+    opacity: 0;
+  }
+}
+
+@keyframes mouse-dot {
+  from {
+    color: transparent;
+  }
+
+  33% {
+    color: #fff;
+  }
+
+  to {
+    padding-top: 20px;
+    color: transparent;
+  }
+}
+
+@keyframes touch-dot {
+  from {
+    opacity: 0;
+  }
+
+  33% {
+    opacity: 1;
+  }
+
+  to {
+    transform: translate3d(0, -20px, 0);
+    opacity: 0;
+  }
+}
