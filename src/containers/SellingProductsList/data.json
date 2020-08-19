@@ -6,8 +6,8 @@
       "shortName": "Spaghetti",
       "packageName": "Packed Foods",
       "price": 1700,
-      "image": "images/spaghetti.jpg",
-      "imagePlaceholder": "images/ferns-placeholder.jpg",
+      "image": "https://raw.githubusercontent.com/shoxrux0060/valagaar/gh-pages/images/spaghetti.jpg",
+      "imagePlaceholder": "https://raw.githubusercontent.com/shoxrux0060/valagaar/gh-pages/images/ferns-placeholder.jpg",
       "description": "Large cozy kettle for four bowls. Ideal for fragrant herbal teas and strong hugs.\nVolume about 800 ml"
     },
     {
