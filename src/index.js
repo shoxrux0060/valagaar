@@ -10,6 +10,7 @@ import configureStore from 'configureStore';
 import App from 'components/App';
 import IntlProvider from 'containers/Intl';
 import { testUpdatesComponents } from 'developerTools';
+import { BrowserRouter } from 'react-router-dom';
 
 if (process.env.NODE_ENV !== 'production') {
   testUpdatesComponents(React);
@@ -19,12 +20,14 @@ const history = createHistory();
 const store = configureStore(history);
 
 render(
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
   <Provider store={store}>
     <ConnectedRouter history={history}>
       <IntlProvider>
         <App />
       </IntlProvider>
     </ConnectedRouter>
-  </Provider>,
+  </Provider>
+  </BrowserRouter>,
   document.getElementById('root')
 );
