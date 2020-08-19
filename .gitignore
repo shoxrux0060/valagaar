@@ -6,8 +6,8 @@
 # testing
 /coverage
 
-# production
-/build
+## production
+#/build
 
 # misc
 .DS_Store
@@ -23,4 +23,4 @@ yarn-error.log*
 src/**/**/*.css
 /orders.json
 *.config.js
-/build.tar.gz
+#/build.tar.gz
