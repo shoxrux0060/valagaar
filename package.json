@@ -1,6 +1,7 @@
 {
   "name": "react-redux-shop",
   "description": "Implementation of an online store in the infrastructure of react-redux",
+  "homepage": "https://shoxrux0060.github.io/valagaar",
   "version": "0.1.0",
   "keywords": [
     "reactjs",
@@ -8,18 +9,18 @@
   ],
   "contributors": [
     {
-      "name": "Krivega Dmitriy",
-      "email": "mr.krivega@gmail.com",
-      "web": "http://krivega.com/"
+      "name": "Shoxrux",
+      "email": "minimaxwoxa77@gmail.com",
+      "web": "https://shoxrux0060.github.io/valagaar"
     }
   ],
   "demos": [
-    "http://midforest.krivega.com/"
+    "https://shoxrux0060.github.io/valagaar"
   ],
   "repositories": [
     {
       "type": "git",
-      "url": "https://github.com/Krivega/react-redux-shop.git"
+      "url": "https://github.com/shoxrux0060/valagaar.git"
     }
   ],
   "private": true,
@@ -83,14 +84,17 @@
     "start": "npm-run-all -p start-server watch-css start-js",
     "build-js": "react-scripts build",
     "build": "npm-run-all build-css build-js",
-    "arch-build" : "tar -zcvf build.tar.gz build",
+    "arch-build": "tar -zcvf build.tar.gz build",
     "extract-build": "tar -zxvf build.tar.gz build",
-    "build-and-arch" : "npm-run-all build arch-build",
+    "build-and-arch": "npm-run-all build arch-build",
     "images": "gulp images",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
+    "gh-pages": "^3.1.0",
     "gulp": "^3.9.1",
     "gulp-filter": "^5.1.0",
     "gulp-image": "^4.2.0",
